@@ -79,15 +79,22 @@ class Board extends React.Component {
 class Game extends React.Component {
   render() {
     return (
-      <div className="game">
-        <div className="game-board">
-          <Board />
+      <>
+        <p>well well well this site is under maintenance</p>
+        <p>anw if u r 01110110, hi vin (:</p>
+        <p>dari dulu pengen buat website sendiri cuman ga jadi-jadi</p>
+        <p>nah, dari pada rugi, main tic-tac-toe sendiri aja, abis itu cabut</p>
+        <p>bye.</p>
+        <div className="game">
+          <div className="game-board">
+            <Board />
+          </div>
+          <div className="game-info">
+            <div>{/* status */}</div>
+            <ol>{/* TODO */}</ol>
+          </div>
         </div>
-        <div className="game-info">
-          <div>{/* status */}</div>
-          <ol>{/* TODO */}</ol>
-        </div>
-      </div>
+      </>
     );
   }
 }
