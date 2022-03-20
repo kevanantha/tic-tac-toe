@@ -81,7 +81,6 @@ class Game extends React.Component {
     return (
       <>
         <p>well well well this site is under maintenance</p>
-        <p>anw if u r 01110110, hi vin (:</p>
         <p>dari dulu pengen buat website sendiri cuman ga jadi-jadi</p>
         <p>nah, dari pada rugi, main tic-tac-toe sendiri aja, abis itu cabut</p>
         <p>bye.</p>
